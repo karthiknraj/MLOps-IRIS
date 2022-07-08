@@ -13,7 +13,7 @@ environment:
     baseCondaEnvironment:
   docker:
     enabled: true
-    baseImage: acraml13238e1dv02.azurecr.io/samples/irisu:latest
+    baseImage: https://hub.docker.com/_/microsoft-azuredocs-aci-helloworld
     sharedVolumes: true
     gpuSupport: false
     shmSize: 1g
