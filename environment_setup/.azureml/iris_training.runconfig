@@ -13,7 +13,7 @@ environment:
     baseCondaEnvironment:
   docker:
     enabled: true
-    baseImage: mcr.microsoft.com/azureml/minimal-ubuntu18.04-py37-cpu-inference:latest
+    baseImage: acraml13238e1dv02.azurecr.io/samples/irisu:latest
     sharedVolumes: true
     gpuSupport: false
     shmSize: 1g
