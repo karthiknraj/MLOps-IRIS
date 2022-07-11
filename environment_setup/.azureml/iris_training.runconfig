@@ -13,7 +13,7 @@ environment:
     baseCondaEnvironment:
   docker:
     enabled: true
-    baseImage: "mcr.microsoft.com/azureml/o16n-sample-user-base/ubuntu-miniconda:latest"
+    baseImage: mcr.microsoft.com/azureml/o16n-sample-user-base/ubuntu-miniconda:latest
     sharedVolumes: true
     gpuSupport: false
     shmSize: 1g
